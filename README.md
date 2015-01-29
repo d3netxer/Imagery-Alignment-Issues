@@ -5,11 +5,11 @@ There is a need to sometimes georectify or re-georectify imagery strips when pro
 
 The provided imagery is already 'orthorectified'. However, the accuracy of the orthorectification varies and is not typically at the level desired.  
 
-When high-resolution imagery is provided over an area in OpenStreetmap that has low-resolution imagery then typically there is no issue. The high-resolution imagery can be used to trace features
+When high-resolution imagery is provided over an area in OpenStreetmap thats has low-resolution imagery then typically there is no issue. The high-resolution imagery can be used to trace features
 
 When high-resolution imagery is provided over an area in OpenStreetmap that has high-resolution imagery then there is a potential conflict, especially if there are already exisiting features. If nothing is done to fix the offset issues then mappers get confused. 
 
-1. They might not know whether to move existing features to align with the newer imagery, or shit the newer imagery to align with the exisiting features.
+1. They might not know whether to move existing features to align with the newer imagery, or shift the newer imagery to align with the exisiting features.
 2. A new mapper who navigates to the area on OpenStreetMap will likely be confused when if they see features misaligned with the shown imagery. These feature might have been traced off of newer imagery which is not in the default Bing layer. The mapper might not of thought to check the attribution or source of these features.
 
 There is really no way to determine which image is more accurate without more data. The imagery from both Bing and the imagery we are pulling from come from the same imagery provider and is orthorectified according to their methods. 
