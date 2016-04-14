@@ -1,4 +1,4 @@
-# georectifying_tools
+# Imagery-Alignment-Issues
 
 A discussion on how to improve imagery alignment for imagery services in OpenStreetMap
 
